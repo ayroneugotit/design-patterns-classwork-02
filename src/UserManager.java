@@ -39,4 +39,8 @@ public class UserManager {
             user.setRole(newRole);
         }
     }
+
+    public List<User> getUsers() {
+        return users;
+    }
 }
